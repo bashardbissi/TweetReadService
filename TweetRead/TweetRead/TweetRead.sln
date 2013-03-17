@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetReadService", "TweetRead\TweetReadService.csproj", "{1AA4BAD5-D672-4AFE-A199-3B2249E1AD5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBWrapper", "DBWrapper\DBWrapper.csproj", "{F0B0DA8D-C751-464A-9975-29D0F4CE3D1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataContracts", "DataContracts\DataContracts.csproj", "{419D2CFB-FF10-4848-A819-019E6D998F12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C0678A65-4274-4F1A-A9E1-AF6C8B4420BD}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		TweetRead.vsmdi = TweetRead.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = TweetRead.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AA4BAD5-D672-4AFE-A199-3B2249E1AD5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA4BAD5-D672-4AFE-A199-3B2249E1AD5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA4BAD5-D672-4AFE-A199-3B2249E1AD5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA4BAD5-D672-4AFE-A199-3B2249E1AD5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0B0DA8D-C751-464A-9975-29D0F4CE3D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B0DA8D-C751-464A-9975-29D0F4CE3D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B0DA8D-C751-464A-9975-29D0F4CE3D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B0DA8D-C751-464A-9975-29D0F4CE3D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{419D2CFB-FF10-4848-A819-019E6D998F12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{419D2CFB-FF10-4848-A819-019E6D998F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{419D2CFB-FF10-4848-A819-019E6D998F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{419D2CFB-FF10-4848-A819-019E6D998F12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

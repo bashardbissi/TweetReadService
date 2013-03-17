@@ -1,0 +1,13 @@
+D:\My Files\MongoProject\TweetRead\TweetRead\DBWrapper\bin\Debug\DBWrapper.dll
+D:\My Files\MongoProject\TweetRead\TweetRead\DBWrapper\bin\Debug\DBWrapper.pdb
+D:\My Files\MongoProject\TweetRead\TweetRead\DBWrapper\bin\Debug\DataContracts.dll
+D:\My Files\MongoProject\TweetRead\TweetRead\DBWrapper\bin\Debug\MongoDB.Bson.dll
+D:\My Files\MongoProject\TweetRead\TweetRead\DBWrapper\bin\Debug\MongoDB.Driver.dll
+D:\My Files\MongoProject\TweetRead\TweetRead\DBWrapper\bin\Debug\DataContracts.pdb
+D:\My Files\MongoProject\TweetRead\TweetRead\DBWrapper\bin\Debug\MongoDB.Bson.pdb
+D:\My Files\MongoProject\TweetRead\TweetRead\DBWrapper\bin\Debug\MongoDB.Bson.xml
+D:\My Files\MongoProject\TweetRead\TweetRead\DBWrapper\bin\Debug\MongoDB.Driver.pdb
+D:\My Files\MongoProject\TweetRead\TweetRead\DBWrapper\bin\Debug\MongoDB.Driver.xml
+D:\My Files\MongoProject\TweetRead\TweetRead\DBWrapper\obj\Debug\ResolveAssemblyReference.cache
+D:\My Files\MongoProject\TweetRead\TweetRead\DBWrapper\obj\Debug\DBWrapper.dll
+D:\My Files\MongoProject\TweetRead\TweetRead\DBWrapper\obj\Debug\DBWrapper.pdb

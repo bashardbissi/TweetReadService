@@ -1,0 +1,115 @@
+﻿@{
+    Layout = null;
+}
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>TweetRead</title>
+</head>
+<body>
+    <div>
+    <table>
+        <tr>
+            <td>
+                <span>To get and save user tweets in mongo DB write the user screen name below and hit "Get Tweets" Button</span><br /><br />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span>Screen Name (Not A Hash Tag)</span>
+               
+               @using (Html.BeginForm("GetAndSaveUserTweets", "TweetUI", FormMethod.Get))
+               {
+                    <input id="txtScreenName" name="ScreenName" type="text" />       
+                    <input type="submit" value="Pull and save user tweets" />
+               }
+
+               @if (ViewData["GetAndSaveUserTweetsReturnValue"] != null)
+               {
+                    <div id="GetAndSaveUserTweetsReturnValue" style="color:Red">
+                        @ViewData["GetAndSaveUserTweetsReturnValue"]
+                    </div>
+               }
+               else
+               {<div id="GetAndSaveUserTweetsReturnValue"></div> }
+
+  
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">----------------------------------------------------------------------------------------------</td><br /><br />
+        </tr>
+        <tr>
+            <td>
+                <span>Hit the "Get Count By Source" button to retrieve the count of tweets based on the source selected</span><br /><br />
+            </td>
+        </tr>
+        <tr>
+             <td>
+                <span>Source</span>
+                    @using (Html.BeginForm("GetTweetsCountBySource", "TweetUI", FormMethod.Get))
+               {
+                    <select id="lstSources" name="Source">
+                    <option>web</option>
+                    <option>Facebook</option>
+                    <option>Tweet Button</option>
+                    <option>Twitter for BlackBerry</option>
+                    <option>bitly</option>
+                </select>
+                <input id="btnGetTweetsCountBySource" type="submit" value="Get Count By Source" />
+               }
+
+                @if (ViewData["GetTweetsCountBySourceReturnValue"] != null)
+               {
+                    <div id="GetTweetsCountBySourceReturnValue" style="color:Red">
+                        @ViewData["GetTweetsCountBySourceReturnValue"]
+                    </div>
+               }
+               
+              
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">----------------------------------------------------------------------------------------------</td><br /><br />
+        </tr>
+         <tr>
+            <td>
+                <span>Hit the "Get Count By Timezone" button to retrieve the count of tweets based on the timezone selected</span><br /><br />
+            </td>
+        </tr>
+        <tr>
+             <td>
+                <span>Timezone</span>
+                    @using (Html.BeginForm("GetTweetsCountByTimezone", "TweetUI", FormMethod.Get))
+               {
+                    <select id="lstTimezones" name="TweetTimezone">
+                    <option>Riyadh</option>
+                    <option>Cairo</option>
+                    <option>Amman</option>
+                </select>
+                <input id="btnGetTweetsCountByTimezone" type="submit" value="Get Count By Source" />
+               }
+
+                @if (ViewData["GetTweetsCountByTimezoneReturnValue"] != null)
+               {
+                    <div id="GetTweetsCountByRegionReturnValue" style="color:Red">
+                        @ViewData["GetTweetsCountByTimezoneReturnValue"]
+                    </div>
+               }
+               
+              
+            </td>
+        </tr>
+     
+    </table>
+
+        
+    </div>
+</body>
+</html>

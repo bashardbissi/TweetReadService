@@ -1,0 +1,5 @@
+D:\My Files\MongoProject\TweetRead\TweetRead\DataContracts\bin\Debug\DataContracts.dll
+D:\My Files\MongoProject\TweetRead\TweetRead\DataContracts\bin\Debug\DataContracts.pdb
+D:\My Files\MongoProject\TweetRead\TweetRead\DataContracts\obj\Debug\ResolveAssemblyReference.cache
+D:\My Files\MongoProject\TweetRead\TweetRead\DataContracts\obj\Debug\DataContracts.dll
+D:\My Files\MongoProject\TweetRead\TweetRead\DataContracts\obj\Debug\DataContracts.pdb

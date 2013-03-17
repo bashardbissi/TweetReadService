@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="242171bd-a06d-4515-ad10-258fb2e99502" name="BasharD@SA80IFSIT003L 2013-03-13 18:54:04" runUser="ARAMEX\BasharD" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b3130c25-c5de-4333-a11c-5b574c09c9fa">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="BasharD_SA80IFSIT003L 2013-03-13 18_54_04" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-13T18:54:04.2043469+03:00" queuing="2013-03-13T18:54:11.6456900+03:00" start="2013-03-13T18:54:12.1761002+03:00" finish="2013-03-13T18:54:19.9606499+03:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="SA80IFSIT003L" outcome="Error" timestamp="2013-03-13T18:54:19.9450496+03:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AddRecord" storage="d:\my files\mongoproject\tweetread\tweetread\dbwrappertest\bin\debug\dbwrappertest.dll" id="90961c14-e331-1fd5-8b40-dd8b84629191">
+      <Execution id="ba4e3f42-93d8-4103-ac4f-265efe5008d1" />
+      <TestMethod codeBase="D:/My Files/MongoProject/TweetRead/TweetRead/DBWrapperTest/bin/Debug/DBWrapperTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DBWrapperTest.UnitTest1, DBWrapperTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddRecord" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="90961c14-e331-1fd5-8b40-dd8b84629191" executionId="ba4e3f42-93d8-4103-ac4f-265efe5008d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ba4e3f42-93d8-4103-ac4f-265efe5008d1" testId="90961c14-e331-1fd5-8b40-dd8b84629191" testName="AddRecord" computerName="SA80IFSIT003L" duration="00:00:07.5349449" startTime="2013-03-13T18:54:12.4257050+03:00" endTime="2013-03-13T18:54:19.9606499+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba4e3f42-93d8-4103-ac4f-265efe5008d1">
+    </UnitTestResult>
+  </Results>
+</TestRun>

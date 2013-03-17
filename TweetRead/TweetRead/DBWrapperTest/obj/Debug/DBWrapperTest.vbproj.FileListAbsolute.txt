@@ -1,0 +1,7 @@
+D:\My Files\MongoProject\TweetRead\TweetRead\DBWrapperTest\bin\Debug\DBWrapperTest.dll
+D:\My Files\MongoProject\TweetRead\TweetRead\DBWrapperTest\bin\Debug\DBWrapperTest.pdb
+D:\My Files\MongoProject\TweetRead\TweetRead\DBWrapperTest\bin\Debug\DBWrapperTest.xml
+D:\My Files\MongoProject\TweetRead\TweetRead\DBWrapperTest\obj\Debug\ResolveAssemblyReference.cache
+D:\My Files\MongoProject\TweetRead\TweetRead\DBWrapperTest\obj\Debug\DBWrapperTest.dll
+D:\My Files\MongoProject\TweetRead\TweetRead\DBWrapperTest\obj\Debug\DBWrapperTest.xml
+D:\My Files\MongoProject\TweetRead\TweetRead\DBWrapperTest\obj\Debug\DBWrapperTest.pdb
